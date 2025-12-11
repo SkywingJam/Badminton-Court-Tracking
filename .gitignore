@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+output/
+*.npy
+*.mp4
+*.avi
+*.jpg
+*.png
+!test_samples/*.mp4
+!test_samples/*.jpg
+!test_samples/*.png
+!assests/*.jpg
+!assests/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.github/copilot-instructions.md
